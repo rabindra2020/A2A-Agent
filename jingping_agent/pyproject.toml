@@ -1,1 +1,12 @@
-
+[project]
+name = "jingping-agent"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "a2a-sdk>=0.3.11",
+    "crewai[google-genai]>=1.4.1",
+    "langchain-groq>=1.1.2",
+    "litellm>=1.81.9",
+    "python-dotenv>=1.2.1",
+]
